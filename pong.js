@@ -60,7 +60,7 @@ class Pong {
     this.drawRect(this.ball);
   }
   drawRect(rect) {
-    // help meee
+    // help me
     this._context.fillStyle = "#fff";
     this._context.fillRect(
       this.rect.pos.x,
