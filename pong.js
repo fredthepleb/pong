@@ -6,9 +6,9 @@ class Vec {
 }
 
 class Rect {
-  constructor(w, h) {
-    this.pos = new Vec();
-    this.size = new Vec(w, h);
+  constructor(x = 0, y = 0) {
+    this.pos = new Vec(0, 0);
+    this.size = new Vec(x, y);
   }
   get left() {
     return this.pos.x - this.size.x / 2;
